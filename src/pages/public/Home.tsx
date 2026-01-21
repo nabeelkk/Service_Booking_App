@@ -32,7 +32,6 @@ const Home = () => {
 
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
       <section className="relative overflow-hidden py-20 md:py-32">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -93,7 +92,6 @@ const Home = () => {
                 </div>
               </div>
               
-              {/* Floating elements */}
               <motion.div
                 animate={{ y: [0, -20, 0] }}
                 transition={{ duration: 3, repeat: Infinity }}
@@ -113,7 +111,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Service Categories Section */}
       <section className="py-20">
         <div className="container mx-auto px-4">
           <motion.div
@@ -144,7 +141,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Features Section */}
       <section className="py-20 bg-gradient-to-br from-primary-50 to-blue-50">
         <div className="container mx-auto px-4">
           <motion.div
@@ -188,7 +184,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
       <section className="py-20">
         <div className="container mx-auto px-4">
           <motion.div

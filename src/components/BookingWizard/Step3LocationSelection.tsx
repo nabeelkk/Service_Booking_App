@@ -27,7 +27,7 @@ const Step3LocationSelection = ({ location, onUpdate }: Step3Props) => {
           setAddress(`Lat: ${position.coords.latitude.toFixed(4)}, Lng: ${position.coords.longitude.toFixed(4)}`);
         },
         (error) => {
-          alert('Unable to get your location. Please enter address manually.');
+          alert('Unable to get your location. Please enter address manually. ' + error.message);
         }
       );
     } else {

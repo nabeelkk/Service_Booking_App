@@ -8,7 +8,6 @@ import {
   nextStep,
   previousStep,
   submitBooking,
-  resetBooking,
 } from '@/store/bookingSlice';
 import Stepper from '@/components/Stepper/Stepper';
 import Step1CategorySelection from './Step1CategorySelection';

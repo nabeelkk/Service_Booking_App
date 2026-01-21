@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { BookingFormData, ServiceCategory } from '@/types';
+import { BookingFormData } from '@/types';
 import { serviceCategories } from '@/data/services';
 import { FaEdit, FaCheckCircle } from 'react-icons/fa';
 
