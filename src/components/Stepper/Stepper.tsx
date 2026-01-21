@@ -24,7 +24,7 @@ const Stepper = ({ currentStep, steps }: StepperProps) => {
           const stepNumber = index + 1;
           const isCompleted = stepNumber < currentStep;
           const isCurrent = stepNumber === currentStep;
-          const isUpcoming = stepNumber > currentStep;
+        //   const isUpcoming = stepNumber > currentStep;
 
           return (
             <div
